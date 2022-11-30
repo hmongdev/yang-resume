@@ -10,12 +10,12 @@ function App() {
     return (
         <div className="bg-gradient-to-b from-black via-black to-gray-800">
             <NavBar />
-            <Socials />
             <Home />
             <About />
             <Projects />
             <Tools />
             <Contact />
+            <Socials />
         </div>
     );
 }
