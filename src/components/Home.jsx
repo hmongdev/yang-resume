@@ -6,12 +6,12 @@ import { Link } from 'react-scroll';
 const Home = () => {
     return (
         <div name="home" className="pt-20 w-full h-full mb-20">
-            <div className="max-w-screen-md mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                 <div>
                     <img
                         src={profilePicture}
                         alt="profile avatar"
-                        className="rounded-full mx-auto md:w-4/5 w-2/5 p-2"
+                        className="rounded-full mx-auto md:w-3/5 w-2/5 p-2"
                     />
                 </div>
                 <div className="text-white text-center">
