@@ -1,4 +1,4 @@
-import NavBar from './components/NavBar';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Socials from './components/Socials';
 import About from './components/About';
@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 function App() {
     return (
         <div className="bg-gradient-to-b from-black via-black to-gray-800">
-            <NavBar />
+            <Navbar />
             <Home />
             <About />
             <Projects />
