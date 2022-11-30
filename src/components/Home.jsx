@@ -5,13 +5,22 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
-        <div name="home" className="pt-20 h-screen w-full">
+        <div name="home" className="pt-20 w-full h-full mb-20">
             <div className="max-w-screen-md mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-                <div className="pt-20 text-white text-center">
-                    <h2 className="text-4xl md:text-6xl font-medium p-4">
-                        Full Stack Developer
-                    </h2>
-                    <p className="text-gray-400 text-left p-4">
+                <div>
+                    <img
+                        src={profilePicture}
+                        alt="profile avatar"
+                        className="rounded-full mx-auto md:w-4/5 w-2/5 p-2"
+                    />
+                </div>
+                <div className="text-white text-center">
+                    <div className="mb-10">
+                        <h2 className="text-4xl md:text-6xl font-medium inline border-b-4 border-gray-500">
+                            Full Stack Developer
+                        </h2>
+                    </div>
+                    <p className="text-gray-400 text-left text-lg p-4">
                         I have 1 year of experience building websites and
                         applications, and love creating projects from scratch
                         using React and Tailwind!
@@ -33,13 +42,6 @@ const Home = () => {
                             </span>
                         </Link>
                     </div>
-                </div>
-                <div>
-                    <img
-                        src={profilePicture}
-                        alt="profile avatar"
-                        className="rounded-full mx-auto w-2/3 md:1/3 p-2"
-                    />
                 </div>
             </div>
         </div>
