@@ -20,7 +20,7 @@ const NavBar = () => {
         },
         {
             id: 4,
-            link: 'experience',
+            link: 'tools',
         },
         {
             id: 5,
@@ -36,9 +36,11 @@ const NavBar = () => {
                 {links.map(({ link, id }) => (
                     <li
                         key={id}
-                        className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-110 duration-200 hover:text-gray-100"
+                        className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-110 duration-200 hover:text-gray-100 hover:underline"
                     >
-                        {link}
+                        <Link to={link} smooth duration={500}>
+                            {link}
+                        </Link>
                     </li>
                 ))}
             </ul>
