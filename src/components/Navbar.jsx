@@ -29,7 +29,7 @@ const Navbar = () => {
     ];
 
     return (
-        <div className="flex justify-between items-center w-full h-20 text-white bg-black fixed">
+        <div className="flex justify-between items-center w-full h-20 text-white bg-gradient-to-r from-gray-900 to-slate-700 fixed">
             <h1 className="text-5xl font-signature pl-4">Yang</h1>
 
             <ul className="hidden md:flex">

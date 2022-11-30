@@ -25,7 +25,7 @@ const Projects = () => {
         },
     ];
     return (
-        <div name="projects" className="w-full text-white md:h-screen">
+        <div name="projects" className="w-full text-white md:h-screen mb-20">
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="text-center mb-20">
                     <h2 className="text-4xl md:text-6xl font-medium inline border-b-4 border-gray-500">

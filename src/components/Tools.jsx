@@ -47,10 +47,10 @@ const Tools = () => {
     ];
 
     return (
-        <div name="tools" className="w-full h-screen">
+        <div name="tools" className="w-full h-screen mb-20">
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-                <div className="text-center mb-20">
-                    <h2 className="text-4xl md:text-6xl font-medium inline border-b-4 border-gray-500">
+                <div className="text-center">
+                    <h2 className="text-4xl md:text-6xl font-medium inline border-b-4 border-gray-500 mt-20">
                         Toolkit
                     </h2>
                 </div>
@@ -59,7 +59,7 @@ const Tools = () => {
                     {techs.map(({ id, src, title, style }) => (
                         <div
                             key={id}
-                            className={`shadow-md hover:scale-105 duration-500 py-8 rounded-lg ${style}`}
+                            className={`shadow-md hover:scale-105 duration-500 pt-8 rounded-lg ${style}`}
                         >
                             <img src={src} alt="" className="w-20 mx-auto" />
                             <p className="pt-4 text-2xl">{title}</p>
