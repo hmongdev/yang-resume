@@ -16,6 +16,8 @@ const About = () => {
                     <li>Aspiring Philanthropist</li>
                 </ul>
                 <br />
+            </div>
+            <div className="max-w-screen-sm p-10 mx-auto text-gray-400">
                 <li>
                     <span className="text-white">Nov 2021</span>
                     <p>
@@ -29,17 +31,17 @@ const About = () => {
                     <span className="text-white">Sep 2022</span>
                     <p>
                         I graduated from <i>Prime Digital Academy</i> with a
-                        Full Stack Engineering Certification and am looking
-                        forward to developing my skills and pushing the limits
-                        of my knowledge.
+                        Full Stack Engineering Certification and am looking for
+                        my first software job.
                     </p>
                 </li>
                 <br />
                 <li>
                     <span className="text-white">Present</span>
                     <p>
-                        I find the most joy bringing ideas to life, refactoring,
-                        and solving problems!
+                        In my free time, I'm building small projects to hone my
+                        skills. I find the most joy bringing ideas to life,
+                        refactoring, and solving problems!
                     </p>
                 </li>
             </div>
