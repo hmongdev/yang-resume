@@ -2,6 +2,7 @@ import React from 'react';
 import reactWeather from '../assets/portfolio/react-weather-app.png';
 import mindfully from '../assets/portfolio/mindfully.png';
 import rochinitiative from '../assets/portfolio/rochinitiative.png';
+import tindog from '../assets/portfolio/tindog.png';
 
 const Projects = () => {
     const projects = [
@@ -22,6 +23,12 @@ const Projects = () => {
             src: rochinitiative,
             demo: 'https://rochinitiave.netlify.app/#/home',
             code: 'https://github.com/yang2674/rochinitiative',
+        },
+        {
+            id: 4,
+            src: tindog,
+            demo: 'https://react-tindog.netlify.app/',
+            code: 'https://github.com/yang2674/react-tindog',
         },
     ];
     return (
