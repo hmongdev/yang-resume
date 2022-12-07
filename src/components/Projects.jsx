@@ -10,30 +10,35 @@ const Projects = () => {
         {
             id: 1,
             src: reactWeather,
+            name: 'React Weather App',
             demo: 'https://react-weather-app-yang.netlify.app/',
             code: 'https://github.com/yang2674/react-weather-app',
         },
         {
             id: 2,
             src: mindfully,
+            name: 'Mindfully',
             demo: 'https://mindfully.netlify.app/#/login',
             code: 'https://github.com/yang2674/solo-project-mindfully',
         },
         {
             id: 3,
             src: rochinitiative,
+            name: 'Rochester Community Initiative',
             demo: 'https://rochinitiave.netlify.app/#/home',
             code: 'https://github.com/yang2674/rochinitiative',
         },
         {
             id: 4,
             src: tindog,
+            name: 'Tindog',
             demo: 'https://react-tindog.netlify.app/',
             code: 'https://github.com/yang2674/react-tindog',
         },
         {
             id: 5,
             src: carshare,
+            name: 'Evie + HOURCAR Carshare Calculator',
             demo: 'https://carshare-trip-calculator.netlify.app/',
             code: 'https://github.com/yang2674/carshare-calculator',
         },
@@ -51,11 +56,12 @@ const Projects = () => {
                     id="grid"
                     className="grid md:grid-cols-2 gap-8 max-w-screen-lg"
                 >
-                    {projects.map(({ id, src, demo, code }) => (
+                    {projects.map(({ id, src, name, demo, code }) => (
                         <div
                             key={id}
                             className="shadow-md shadow-gray-600 rounded-lg pt-8"
                         >
+                            <h1 className="text-center text-2xl ">{name}</h1>
                             <img
                                 src={src}
                                 alt=""
