@@ -32,12 +32,6 @@ const Projects = () => {
             code: 'https://github.com/yang2674/react-tindog',
         },
         {
-            id: 4,
-            src: tindog,
-            demo: 'https://react-tindog.netlify.app/',
-            code: 'https://github.com/yang2674/react-tindog',
-        },
-        {
             id: 5,
             src: carshare,
             demo: 'https://carshare-trip-calculator.netlify.app/',
